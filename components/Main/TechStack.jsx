@@ -9,7 +9,7 @@ function TechStack() {
 			className=' p-5 sm:p-20  pb-10 w-screen flex-col sm:flex-row-reverse sm:pl-2'
 		>
 			<div className='text z-10 sm:w-2/4 se'>
-				<p className='text-4xl sm:text-6xl font-bold'>
+				<p className='ml-5 text-4xl sm:text-6xl font-bold'>
 					My <span className='color-primary'>Tech Stack</span>
 				</p>
 				<div className='logos justify-evenly  mt-5 flex flex-wrap'>

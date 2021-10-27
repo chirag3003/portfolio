@@ -5,9 +5,10 @@ import SocialIcon from "./SocialIcon";
 import SectionImage from "components/SectionImage";
 
 function Introduction() {
-	const heading = `I'm ${config.name}`.split("");
+	// const heading = `I'm ${config.name}`.split("");
+	const heading = ["I'm", "Chirag"];
 	return (
-		<section className='p-5 pt-24 sm:p-20 sm:pt-40 h-screen w-screen flex-col sm:flex-row'>
+		<section className='p-5 pt-24 sm:p-20 sm:pt-40 sm:h-screen w-screen flex-col sm:flex-row'>
 			<div className='blob -left-80 -bottom-60 sm:-left-56 sm:-bottom-72 h-4/6 w-3/6 sm:h-full sm:w-2/5'>
 				<img
 					src={blob.src}
@@ -15,7 +16,7 @@ function Introduction() {
 					className='max-h-full h-full w-full max-w-full'
 				/>
 			</div>
-			<div className='z-10 text h-2/4 w-full sm:h-auto sm:w-2/4'>
+			<div className='z-10 text h-2/4 w-full sm:h-auto sm:w-3/5'>
 				<div
 					style={{
 						fontWeight: "700",
@@ -27,18 +28,23 @@ function Introduction() {
 							Hi,&nbsp;
 						</span>
 					</div>
-					<div className='flex'>
-						{heading.map((letter, index) => {
-							if (letter == " ") {
-								return (
+					<div className='flex flex-wrap	'>
+						{heading.map((word, index) => {
+							return (
+								<div key={index} className='word flex'>
+									{word.split("").map((letter, index) => {
+										return (
+											<div
+												key={index}
+												className='special-text'
+											>
+												<span>{letter}</span>
+											</div>
+										);
+									})}
 									<div key={index}>
 										<span>&nbsp;</span>
 									</div>
-								);
-							}
-							return (
-								<div key={index} className='special-text'>
-									<span>{letter}</span>
 								</div>
 							);
 						})}
