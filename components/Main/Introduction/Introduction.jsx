@@ -8,7 +8,7 @@ function Introduction() {
 	const heading = `I'm ${config.name}`.split("");
 	return (
 		<section className='p-5 pt-24 sm:p-20 sm:pt-40 h-screen w-screen flex-col sm:flex-row'>
-			<div className='blob -left-96 -bottom-96 sm:-left-56 sm:-bottom-72 h-5/6 sm:h-full sm:w-2/5'>
+			<div className='blob -left-80 -bottom-60 sm:-left-56 sm:-bottom-72 h-4/6 w-3/6 sm:h-full sm:w-2/5'>
 				<img
 					src={blob.src}
 					alt='blob'
