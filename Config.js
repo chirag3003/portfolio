@@ -34,10 +34,6 @@ export const TechStacks = [
 		logo: "/icons/git.svg",
 	},
 	{
-		name: "Github",
-		logo: "/icons/github.svg",
-	},
-	{
 		name: "graphql",
 		logo: "/icons/graphql.svg",
 	},
@@ -70,23 +66,7 @@ export const TechStacks = [
 		logo: "/icons/typescript.svg",
 	},
 	{
-		name: "vercel",
-		logo: "/icons/vercel.svg",
-	},
-	{
-		name: "auth0",
-		logo: "/icons/auth0.svg",
-	},
-	{
-		name: "golang",
-		logo: "/icons/golang.svg",
-	},
-	{
 		name: "cloudflare",
 		logo: "/icons/cloudflare.svg",
-	},
-	{
-		name: "aws",
-		logo: "/icons/aws.svg",
 	},
 ];
