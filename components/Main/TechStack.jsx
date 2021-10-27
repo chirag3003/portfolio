@@ -6,7 +6,7 @@ function TechStack() {
 	return (
 		<section
 			id='tech-stack'
-			className=' p-5 sm:p-20  h-screen w-screen flex-col sm:flex-row-reverse sm:pl-2'
+			className=' p-5 sm:p-20  pb-10 w-screen flex-col sm:flex-row-reverse sm:pl-2'
 		>
 			<div className='text z-10 sm:w-2/4 se'>
 				<p className='text-4xl sm:text-6xl font-bold'>
