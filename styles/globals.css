@@ -1,16 +1,36 @@
-html,
+section {
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	display: flex;
+	padding-top: 100px;
+
+	/* overflow-y: visible; */
+}
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	overflow-x: hidden;
+	width: 100vw;
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
+:root {
+	--primary-color: #e94560;
+	--secondary: #7f48d9;
 }
-
-* {
-  box-sizing: border-box;
+.color-primary {
+	color: var(--primary-color);
+}
+.blob {
+	position: absolute;
+	/* left: 0;
+	top: 0; */
+}
+.bg-primary {
+	background-color: var(--primary-color);
+}
+@media (min-width: 1024px) {
+	.special-text:hover {
+		transform: scale(1.4);
+		margin: 0 2px;
+		transition: 0.2s;
+		color: var(--primary-color);
+	}
 }
