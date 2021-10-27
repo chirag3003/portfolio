@@ -8,22 +8,25 @@ function Introduction() {
 	// const heading = `I'm ${config.name}`.split("");
 	const heading = ["I'm", "Chirag"];
 	return (
-		<section className='p-5 pt-24 sm:p-20 sm:pt-40 sm:h-screen w-screen flex-col sm:flex-row'>
-			<div className='blob -left-80 -bottom-60 sm:-left-56 sm:-bottom-72 h-4/6 w-3/6 sm:h-full sm:w-2/5'>
+		<section
+			id='introduction'
+			className='p-5 pt-24 sm:p-20 sm:pt-40 lg:h-screen w-screen flex-col lg:flex-row'
+		>
+			<div className='blob -left-80 -bottom-60 sm:-left-56 sm:-bottom-72 h-4/6 w-3/6 lg:h-full lg:w-2/5'>
 				<img
 					src={blob.src}
 					alt='blob'
 					className='max-h-full h-full w-full max-w-full'
 				/>
 			</div>
-			<div className='z-10 text h-2/4 w-full sm:h-auto sm:w-3/5'>
+			<div className='z-10 text h-2/4 w-full lg:h-auto lg:w-3/5'>
 				<div
 					style={{
 						fontWeight: "700",
 					}}
-					className='heading  text-4xl sm:text-6xl  flex  '
+					className='heading  text-4xl lg:text-6xl  flex  '
 				>
-					<div className='sm:block'>
+					<div className='lg:block'>
 						<span style={{ color: "var(--primary-color)" }}>
 							Hi,&nbsp;
 						</span>
@@ -80,13 +83,6 @@ function Introduction() {
 					</button>
 				</div>
 			</div>
-			{/* <div className='z-10 block image min-h-2/4 sm:w-2/4'>
-				<img
-					className='max-h-full max-w-full h-full w-5/6 mx-auto'
-					src='static/programmer2.svg'
-					alt='programmer'
-				/>
-			</div> */}
 			<SectionImage src='static/programmer2.svg' alt='Programmer' />
 		</section>
 	);

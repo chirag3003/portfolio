@@ -8,7 +8,7 @@ function Header() {
 				<div className='relative flex items-center justify-between h-16'>
 					<div className='flex-1 flex items-center justify-between '>
 						<a
-							href={"/#"}
+							href={"#introduction"}
 							className=' text-3xl text-white px-3 py-2 rounded-md  font-medium'
 						>
 							{"<"} Chirag {"/>"}
