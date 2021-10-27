@@ -4,7 +4,10 @@ import { TechStacks } from "Config";
 
 function TechStack() {
 	return (
-		<section className=' p-5 sm:p-20  h-screen w-screen flex-col sm:flex-row-reverse sm:pl-2'>
+		<section
+			id='tech-stack'
+			className=' p-5 sm:p-20  h-screen w-screen flex-col sm:flex-row-reverse sm:pl-2'
+		>
 			<div className='text sm:w-2/4 se'>
 				<p className='text-6xl font-bold'>
 					My <span className='color-primary'>Tech Stack</span>
@@ -14,7 +17,7 @@ function TechStack() {
 						return (
 							<div
 								key={name}
-								className='logo hover-scale flex mt-4 flex-col justify-center items-center m-2 w-24 h-24'
+								className='logo hover-scale flex mt-4 flex-col justify-center items-center m-3 w-20 h-20'
 							>
 								<img
 									src={logo}
