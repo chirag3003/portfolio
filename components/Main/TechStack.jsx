@@ -17,11 +17,15 @@ function TechStack() {
 						return (
 							<div
 								key={name}
-								className='logo hover-scale flex mt-4 flex-col justify-center items-center m-3 w-16 h-16 sm:w-20 sm:px-4 sm:h-16'
+								className='logo hover-scale flex mt-4 flex-col justify-center items-center m-3 w-16 h-16 sm:w-20 sm:px-4 sm:h-20'
 							>
 								<img
 									src={logo}
 									alt={name}
+									style={{
+										maxWidth: "95%",
+										maxHeigth: "95%",
+									}}
 									className='h-full w-full'
 								/>
 								<p className='name text-xs'>{name}</p>
@@ -31,7 +35,7 @@ function TechStack() {
 				</div>
 			</div>
 			<SectionImage
-				className='sm:w-2/4'
+				hidden={true}
 				src={"/static/programmer1.svg"}
 				alt='tech-stack'
 			/>

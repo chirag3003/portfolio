@@ -48,29 +48,28 @@ function Introduction() {
 					<h1>{config.shortDescription} </h1>
 				</div>
 				<div className='mt-5 pr-3 description '>
-					<p className='text-base sm:text-lg  '>
-						{config.description}
-					</p>
+					<p className='text-xs sm:text-lg  '>{config.description}</p>
 				</div>
-				<div className='flex social mt-3'>
-					<div className='icons'></div>
-					<SocialIcon
-						href='https://github.com/chirag3003'
-						src='/static/github.svg'
-						alt='Github'
-					/>
-					<SocialIcon
-						href='https://www.instagram.com/chiragbhalotia/'
-						src='/static/instagram.svg'
-						alt='Instagram'
-					/>
-					<SocialIcon
-						href='mailto:chiragbhalotia0412@gmail.com'
-						src='/static/mail.svg'
-						alt='Email'
-					/>
+				<div className='flex flex-col sm:flex-row social mt-3'>
+					<div className='icons mb-2  flex'>
+						<SocialIcon
+							href='https://github.com/chirag3003'
+							src='/static/github.svg'
+							alt='Github'
+						/>
+						<SocialIcon
+							href='https://www.instagram.com/chiragbhalotia/'
+							src='/static/instagram.svg'
+							alt='Instagram'
+						/>
+						<SocialIcon
+							href='mailto:chiragbhalotia0412@gmail.com'
+							src='/static/mail.svg'
+							alt='Email'
+						/>
+					</div>
 
-					<button className='text-black bg-primary outline-none p-2 rounded-md sm:mx-6 px-3 mx-2 sm:px-4 bg-opacity-20'>
+					<button className=' text-black bg-primary outline-none p-2 rounded-md sm:mx-6 px-3 mx-2 sm:px-4 bg-opacity-20'>
 						Get In Touch
 					</button>
 				</div>
