@@ -82,7 +82,7 @@ function Introduction() {
 					alt='programmer'
 				/>
 			</div> */}
-			<SectionImage />
+			<SectionImage src='static/programmer2.svg' alt='Programmer' />
 		</section>
 	);
 }

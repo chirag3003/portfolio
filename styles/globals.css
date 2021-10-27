@@ -26,6 +26,10 @@ body {
 .bg-primary {
 	background-color: var(--primary-color);
 }
+.hover-scale:hover {
+	transition: 0.2s;
+	transform: scale(1.2);
+}
 @media (min-width: 1024px) {
 	.special-text:hover {
 		transform: scale(1.4);
