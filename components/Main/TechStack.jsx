@@ -12,7 +12,10 @@ function TechStack() {
 				<div className='logos mt-5 flex flex-wrap'>
 					{TechStacks.map(({ name, logo }) => {
 						return (
-							<div className='logo hover-scale flex mt-4 flex-col justify-center items-center m-2 w-24 h-24'>
+							<div
+								key={name}
+								className='logo hover-scale flex mt-4 flex-col justify-center items-center m-2 w-24 h-24'
+							>
 								<img
 									src={logo}
 									alt={name}
