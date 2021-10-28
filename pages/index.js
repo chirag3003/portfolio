@@ -1,23 +1,9 @@
 import Head from "next/head";
-import { useEffect } from "react";
 //custom components
 import Header from "components/Header/Header";
 import Main from "components/Main/Main";
 
 export default function Home() {
-	useEffect(() => {
-		document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
-			anchor.addEventListener("click", function (e) {
-				e.preventDefault();
-
-				document
-					.querySelector(this.getAttribute("href"))
-					.scrollIntoView({
-						behavior: "smooth",
-					});
-			});
-		});
-	}, []);
 	return (
 		<div>
 			<Head>
