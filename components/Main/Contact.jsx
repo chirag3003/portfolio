@@ -20,6 +20,7 @@ function Contact() {
 									<a
 										rel='noopener noreferrer'
 										target='_blank'
+										key={social.name}
 										href={social.href}
 									>
 										<div className='social bg-indigo flex p-2 rounded-md mb-5 items-center'>
