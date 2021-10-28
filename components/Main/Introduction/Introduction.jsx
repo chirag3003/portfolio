@@ -82,7 +82,7 @@ function Introduction() {
 					<div className='flex flex-col sm:flex-row social mt-3'>
 						<div className='icons mb-2  flex'>
 							{Social.map((social) => (
-								<SocialIcon {...social} />
+								<SocialIcon key={social.name} {...social} />
 							))}
 						</div>
 
