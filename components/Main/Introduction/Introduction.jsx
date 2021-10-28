@@ -86,7 +86,7 @@ function Introduction() {
 						href='#contact'
 						className=' text-black bg-primary outline-none p-2 rounded-md sm:mx-6 px-3 mx-2 sm:px-4 bg-opacity-20'
 					>
-						Get In Touch
+						<a href='#contact'>Get In Touch</a>
 					</button>
 				</div>
 			</div>
