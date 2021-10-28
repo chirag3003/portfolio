@@ -1,3 +1,8 @@
+export const pageClip = {
+	//https:?/pageclip.co
+	formName: "contact-form",
+	websiteId: "qWWKy6mVCzORrH2361bGnzBgidZAxv8G",
+};
 export const Introduction = {
 	name: ["Chirag"],
 	shortDescription: "A Fullstack Developer",

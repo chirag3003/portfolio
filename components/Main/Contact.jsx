@@ -1,6 +1,6 @@
 import SocialIcon from "components/SocialIcon";
 import React from "react";
-import { Social } from "Config";
+import { Social, pageClip } from "Config";
 
 function Contact() {
 	return (
@@ -34,7 +34,7 @@ function Contact() {
 				</div>
 				<div className='form w-full lg:w-1/2 py-4 lg:p-3 lg:py-0 '>
 					<form
-						action='https://send.pageclip.co/qWWKy6mVCzORrH2361bGnzBgidZAxv8G/contact-form'
+						action={`https://send.pageclip.co/${pageClip.websiteId}/${pageClip.formName}`}
 						class='pageclip-form'
 						method='post'
 						className='flex flex-col'
