@@ -1,5 +1,6 @@
 import React from "react";
 import HeaderLink from "./HeaderLink";
+import { Introduction as config } from "Config";
 
 function Header() {
 	return (
@@ -11,7 +12,7 @@ function Header() {
 							href={"#"}
 							className=' text-3xl text-white px-3 py-2 rounded-md  font-medium'
 						>
-							{"<"} Chirag {"/>"}
+							{"<"} {config.name} {"/>"}
 						</a>
 						<div className='hidden sm:block sm:ml-6'>
 							<div className='flex space-x-4'>
