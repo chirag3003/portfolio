@@ -9,8 +9,8 @@ function Contact() {
 			className=' p-5 sm:p-20 min-h-screen  pb-10 w-screen flex-col'
 		>
 			<p className='text-4xl lg:text-6xl font-bold mb-5'>Contact Me</p>
-			<div className='content flex flex-col lg:flex-row '>
-				<div className='social lg:px-3 flex flex-col  w-full lg:w-1/2 '>
+			<div className='content flex flex-col lg:flex-row  '>
+				<div className='social lg:px-3 flex flex-col border-b-2 lg:border-b-0 lg:border-r-2 border-pink  w-full lg:w-1/2 '>
 					<div className='socials'>
 						{Social.map((social) => {
 							return (
@@ -32,7 +32,7 @@ function Contact() {
 						})}
 					</div>
 				</div>
-				<div className='form w-full lg:w-1/2 lg:p-3 lg:py-0 '>
+				<div className='form w-full lg:w-1/2 py-4 lg:p-3 lg:py-0 '>
 					<form
 						action='https://send.pageclip.co/qWWKy6mVCzORrH2361bGnzBgidZAxv8G/contact-form'
 						class='pageclip-form'

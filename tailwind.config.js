@@ -14,6 +14,7 @@ module.exports = {
 		colors: {
 			...colors,
 			black: "#1A1A2E",
+			pink: "var(--primary-color)",
 			indigo: "#36365E",
 		},
 	},

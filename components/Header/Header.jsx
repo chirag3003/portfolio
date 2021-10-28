@@ -27,6 +27,10 @@ function Header() {
 									href={"#tech-stack"}
 									text={"Tech Stack"}
 								/>
+								<HeaderLink
+									href={"#contact"}
+									text={"Contact"}
+								/>
 							</div>
 						</div>
 					</div>
