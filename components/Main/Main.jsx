@@ -9,10 +9,6 @@ function Main() {
 			<Introduction />
 			<TechStack />
 			<Contact />
-			<script
-				src='https://s.pageclip.co/v1/pageclip.js'
-				charset='utf-8'
-			></script>
 		</div>
 	);
 }

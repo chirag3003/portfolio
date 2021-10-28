@@ -2,6 +2,7 @@ import Head from "next/head";
 //custom components
 import Header from "components/Header/Header";
 import Main from "components/Main/Main";
+import Script from "next/script";
 
 export default function Home() {
 	return (
@@ -23,7 +24,10 @@ export default function Home() {
 			<Header />
 
 			<Main></Main>
-
+			<Script
+				src='https://s.pageclip.co/v1/pageclip.js'
+				charset='utf-8'
+			></Script>
 			{/* <footer className={""}></footer> */}
 		</div>
 	);

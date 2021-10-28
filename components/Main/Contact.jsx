@@ -38,7 +38,6 @@ function Contact() {
 					<div className='form w-full lg:w-1/2 py-4 lg:p-3 lg:py-0 '>
 						<form
 							action={`https://send.pageclip.co/${pageClip.websiteId}/${pageClip.formName}`}
-							class='pageclip-form'
 							method='post'
 							className='flex flex-col'
 						>
