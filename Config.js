@@ -4,6 +4,24 @@ export const Introduction = {
 	description: `A passionate Intermediate Full Stack Developer 🚀 having an experience of building responsive Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks.`,
 };
 
+export const Social = [
+	{
+		name: "Github",
+		src: "/static/github.svg",
+		href: "https://github.com/chirag3003",
+	},
+	{
+		name: "Instagram",
+		src: "/static/instagram.svg",
+		href: "https://www.instagram.com/chiragbhalotia/",
+	},
+	{
+		name: "Email",
+		src: "/static/email.svg",
+		href: "mailto:chiragbhalotia0412@gmail.com",
+	},
+];
+
 export const TechStacks = [
 	{
 		name: "css",

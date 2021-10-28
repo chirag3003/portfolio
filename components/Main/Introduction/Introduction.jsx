@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
-import { Introduction as config } from "Config";
+import { Introduction as config, Social } from "Config";
 import blob from "./blob1.svg";
-import SocialIcon from "./SocialIcon";
+import SocialIcon from "components/SocialIcon";
 import SectionImage from "components/SectionImage";
 
 function Introduction() {
@@ -77,21 +77,9 @@ function Introduction() {
 				</div>
 				<div className='flex flex-col sm:flex-row social mt-3'>
 					<div className='icons mb-2  flex'>
-						<SocialIcon
-							href='https://github.com/chirag3003'
-							src='/static/github.svg'
-							alt='Github'
-						/>
-						<SocialIcon
-							href='https://www.instagram.com/chiragbhalotia/'
-							src='/static/instagram.svg'
-							alt='Instagram'
-						/>
-						<SocialIcon
-							href='mailto:chiragbhalotia0412@gmail.com'
-							src='/static/mail.svg'
-							alt='Email'
-						/>
+						{Social.map((social) => (
+							<SocialIcon {...social} />
+						))}
 					</div>
 
 					<button className=' text-black bg-primary outline-none p-2 rounded-md sm:mx-6 px-3 mx-2 sm:px-4 bg-opacity-20'>

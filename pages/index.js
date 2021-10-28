@@ -24,7 +24,7 @@ export default function Home() {
 
 			<Main></Main>
 
-			<footer className={""}></footer>
+			{/* <footer className={""}></footer> */}
 		</div>
 	);
 }
