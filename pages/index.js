@@ -11,8 +11,15 @@ export default function Home() {
 				<title>Chirag Bhalotia | Full Stack Developer</title>
 				<meta
 					name='description'
-					content="Chirag Bhalotia's Website | A Student and a Full Stack Developer"
+					content="Chirag Bhalotia's Website | A Student and a Full Stack Developer | Chirag's Tech Stack | Contact Chirag "
 				/>
+				<meta
+					name='keywords'
+					content='Chirag, Bhalotia,codes, Full Stack Developer,html, css, '
+				/>
+				<meta name='language' content='EN' />
+				<meta name='author' content='Chirag Bhalotia' />
+				<meta name='publisher' content='Chirag Bhalotia' />
 				<link rel='icon' href='/favicon.png' />
 				<link rel='preconnect' href='https://fonts.googleapis.com' />
 				<link rel='preconnect' href='https://fonts.gstatic.com' />

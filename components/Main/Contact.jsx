@@ -57,6 +57,7 @@ function Contact() {
 								placeholder='Email'
 							/>
 							<textarea
+								placeholder='Message'
 								required
 								name='message'
 								id='message'
