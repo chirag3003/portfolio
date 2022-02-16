@@ -25,24 +25,53 @@ export const Social = [
 		src: "/static/email.svg",
 		href: "mailto:chiragbhalotia0412@gmail.com",
 	},
+	{
+		name: "Gitea",
+		src : "/static/git.svg",
+		href: "https://git.chirag.codes"
+	}
 ];
 
 export const TechStacks = [
+	{
+		name: "javascript",
+		logo: "/icons/javascript.svg",
+	},
+	{
+		name: "nodejs",
+		logo: "/icons/nodejs.svg",
+	},
+	{
+		name: "Golang",
+		logo: "/icons/golang.svg",
+	},
 	{
 		name: "css",
 		logo: "/icons/css.svg",
 	},
 	{
-		name: "NodeJs",
-		logo: "/icons/nodejs.svg",
+		name: "nextjs",
+		logo: "/icons/nextjs.svg",
 	},
 	{
-		name: "bash",
-		logo: "/icons/bash.svg",
+		name: "react",
+		logo: "/icons/react.png",
 	},
 	{
 		name: "Bootstrap",
 		logo: "/icons/bootstrap.svg",
+	},
+	{
+		name: "Flutter",
+		logo: "/icons/Flutter.svg"
+	},
+	{
+		name: "material-ui",
+		logo: "/icons/materialui.svg",
+	},
+	{
+		name: "graphql",
+		logo: "/icons/graphql.svg",
 	},
 	{
 		name: "ejs",
@@ -57,32 +86,8 @@ export const TechStacks = [
 		logo: "/icons/git.svg",
 	},
 	{
-		name: "graphql",
-		logo: "/icons/graphql.svg",
-	},
-	{
-		name: "javascript",
-		logo: "/icons/javascript.svg",
-	},
-	{
-		name: "material-ui",
-		logo: "/icons/materialui.svg",
-	},
-	{
 		name: "mongodb",
 		logo: "/icons/mongodb.svg",
-	},
-	{
-		name: "nextjs",
-		logo: "/icons/nextjs.svg",
-	},
-	{
-		name: "nodejs",
-		logo: "/icons/nodejs.svg",
-	},
-	{
-		name: "react",
-		logo: "/icons/react.png",
 	},
 	{
 		name: "typescript",

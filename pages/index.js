@@ -34,7 +34,7 @@ export default function Home() {
 			<Script
 				src='https://s.pageclip.co/v1/pageclip.js'
 				charset='utf-8'
-			></Script>
+			/>
 			{/* <footer className={""}></footer> */}
 		</div>
 	);
