@@ -18,7 +18,7 @@ export const Social = [
 	{
 		name: "Instagram",
 		src: "/static/instagram.svg",
-		href: "https://www.instagram.com/chiragbhalotia/",
+		href: "https://www.instagram.com/code.chirag/",
 	},
 	{
 		name: "Email",

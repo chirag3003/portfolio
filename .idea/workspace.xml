@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="223ac15a-547a-4a0d-8a35-186114878332" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Config.js" beforeDir="false" afterPath="$PROJECT_DIR$/Config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/api/hello.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icons/bash.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icons/golang.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +60,10 @@
       <workItem from="1644764675832" duration="2317000" />
       <workItem from="1644819845150" duration="180000" />
       <workItem from="1645002611494" duration="1663000" />
+      <workItem from="1645867482667" duration="105000" />
+      <workItem from="1645871313120" duration="595000" />
+      <workItem from="1645891481809" duration="2000" />
+      <workItem from="1645891551705" duration="581000" />
     </task>
     <servers />
   </component>
