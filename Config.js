@@ -24,11 +24,6 @@ export const Social = [
 		name: "Email",
 		src: "/static/email.svg",
 		href: "mailto:chiragbhalotia0412@gmail.com",
-	},
-	{
-		name: "Gitea",
-		src : "/static/git.svg",
-		href: "https://git.chirag.codes"
 	}
 ];
 
